@@ -1,8 +1,6 @@
 package ejemplo;
 
-import org.santillan.pooherencia.Alumno;
-import org.santillan.pooherencia.Persona;
-import org.santillan.pooherencia.Profesor;
+import org.santillan.pooherencia.*;
 
 public class Ejemploherencia {
     public static void main(String[] args) {
