@@ -10,7 +10,14 @@ public class AlumnoInternacional extends Alumno{
         System.out.println("Alumno Internacional: inicializando constructor...");
     }
 
+    public AlumnoInternacional(String nombre, String apellido) {
+        super(nombre, apellido);
+    }
 
+    public AlumnoInternacional(String nombre, String apellido, String pais) {
+        super(nombre, apellido);
+        this.pais = pais;
+    }
     //getter and setter
 
     public String getPais() {

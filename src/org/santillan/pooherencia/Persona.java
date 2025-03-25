@@ -12,10 +12,15 @@ public class Persona {
         System.out.println("Persona: inicializando contructor...");
     }
 
-    public Persona(String nombre){
-
+    public Persona(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
+    public Persona(String nombre, String apellido, int edad) {
+        this(nombre, apellido);
+        this.edad = edad;
+    }
     //getter and setter
 
 
