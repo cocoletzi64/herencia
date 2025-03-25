@@ -4,6 +4,8 @@ import org.santillan.pooherencia.*;
 
 public class Ejemploherencia {
     public static void main(String[] args) {
+
+        System.out.println("======= Creando la instacia de la clase alumno =========");
         Alumno erick=new Alumno();
         erick.setNombre("Erick");
         erick.setApellido("Cocoletzi");
@@ -11,6 +13,8 @@ public class Ejemploherencia {
         erick.setCastellano(5.5);
         erick.setHistoria(6.3);
         erick.setMatematicas(4.9);
+
+        System.out.println("======= Creando la instacia de la clase alumno Internacional =========");
 
         AlumnoInternacional dolores=new AlumnoInternacional();
         dolores.setNombre("Dolores");
@@ -23,11 +27,13 @@ public class Ejemploherencia {
         dolores.setHistoria(5.8);
         dolores.setMatematicas(6.5);
 
-
+        System.out.println("======= Creando la instacia de la clase Profesor =========");
         Profesor jose=new Profesor();
         jose.setNombre("Jose");
         jose.setApellido("Perez");
         jose.setAsignatura("Matematicas");
+
+        System.out.println("========================");
 
         System.out.println("Alumno "+erick.getNombre()+" "+erick.getApellido()
                 +"\nEscuela:"+erick.getInstitucion());
