@@ -40,4 +40,9 @@ public class AlumnoInternacional extends Alumno{
     public String saludar() {
         return super.saludar()+" , soy extranjero del pais "+getPais();
     }
+
+    @Override
+    public double calcpromedio() {
+        return ((super.calcpromedio()*3)+idiomas)/4;
+    }
 }

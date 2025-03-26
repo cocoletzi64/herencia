@@ -73,4 +73,7 @@ public class Alumno extends Persona{
         return saludar+" ,soy un alumno y mi nombre es: "+getNombre();
 
     }
+    public double calcpromedio(){
+        return (historia+castellano+matematicas)/3;
+    }
 }

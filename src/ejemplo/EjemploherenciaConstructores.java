@@ -52,6 +52,10 @@ public class EjemploherenciaConstructores {
                 System.out.println("Nota idiomas: "+((AlumnoInternacional) persona).getIdiomas());
                 System.out.println("Pais: "+((AlumnoInternacional) persona).getPais());
             }
+            System.out.println("==================sobre escritura promedio==================");
+            System.out.println("Promedio: "+((Alumno) persona).calcpromedio());
+            System.out.println("==================sobre escritura promedio==================");
+
         }
        if (persona instanceof Profesor){
            System.out.println("Imprimiendo los datos del tipo profesor: ");
@@ -61,5 +65,6 @@ public class EjemploherenciaConstructores {
         System.out.println("============== sobre escritura saludar ===================");
         System.out.println(persona.saludar());
         System.out.println("=================================");
+
     }
 }
