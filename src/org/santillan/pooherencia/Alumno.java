@@ -65,4 +65,12 @@ public class Alumno extends Persona{
     public void setHistoria(double historia) {
         this.historia = historia;
     }
+
+    //metodos
+    @Override
+    public String saludar(){
+        String saludar=super.saludar();
+        return saludar+" ,soy un alumno y mi nombre es: "+getNombre();
+
+    }
 }

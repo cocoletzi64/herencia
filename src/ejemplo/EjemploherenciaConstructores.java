@@ -57,6 +57,9 @@ public class EjemploherenciaConstructores {
            System.out.println("Imprimiendo los datos del tipo profesor: ");
            System.out.println("Asignatura: "+((Profesor) persona).getAsignatura());
        }
+
+        System.out.println("============== sobre escritura saludar ===================");
+        System.out.println(persona.saludar());
         System.out.println("=================================");
     }
 }

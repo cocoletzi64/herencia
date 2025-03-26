@@ -35,4 +35,9 @@ public class AlumnoInternacional extends Alumno{
     public void setIdiomas(double idiomas) {
         this.idiomas = idiomas;
     }
+
+    @Override
+    public String saludar() {
+        return super.saludar()+" , soy extranjero del pais "+getPais();
+    }
 }

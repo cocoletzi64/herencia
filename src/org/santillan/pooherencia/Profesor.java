@@ -16,8 +16,6 @@ public class Profesor extends Persona{
         this.asignatura = asignatura;
     }
 
-
-
     //getter and setter
     public String getAsignatura() {
         return asignatura;
@@ -25,5 +23,12 @@ public class Profesor extends Persona{
 
     public void setAsignatura(String asignatura) {
         this.asignatura = asignatura;
+    }
+    //metodos
+
+    @Override
+    public String saludar() {
+        return "Buenos dias soy el profesor de "+getAsignatura()
+                +", mi nombre es "+getNombre();
     }
 }
