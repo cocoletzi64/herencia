@@ -60,4 +60,15 @@ public class Persona {
     public String saludar(){
         return "hola que tal";
     }
+
+    //to string
+
+    @Override
+    public String toString() {
+        return  "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", email='" + email + '\'' +
+                ", edad=" + edad+'\''+
+                ", saludo ="+saludar();
+    }
 }

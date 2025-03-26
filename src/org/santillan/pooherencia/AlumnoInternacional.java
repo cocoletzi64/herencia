@@ -45,4 +45,13 @@ public class AlumnoInternacional extends Alumno{
     public double calcpromedio() {
         return ((super.calcpromedio()*3)+idiomas)/4;
     }
+    //to string
+
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\npais='" + pais + '\'' +
+                ", idiomas=" + idiomas ;
+    }
 }
